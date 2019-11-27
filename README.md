@@ -60,10 +60,20 @@
 
 ## Repository Setup
 
+   
+
 
 
 ---
 ## Workflow & Commands
+* `git init` - Initializes git in our directory (now we call it repository) for version control: only do this in the beginning to be for effiecent.
+    * To do it in the directory you want to turn into repository
+   *  **Never do it in the root diectory!!**
+
+* Git status (Not mandatory but very useful)
+    * Used to see if a file has changed
+    * To see if you forgot to add the file to the stage
+
 
 
 
