@@ -12,7 +12,7 @@
 ## Initial Setup
 1. Setup a GitHub account:     
     a. Go to the sign up and create the account with an email and password
-2. When your in yor command line type ``git config --global user.email "you@example.com``  
+2. When your in yor command line type ``git config --global user.email "you@example.com"``  
     a. Don't copy/paste it because you need to use your email  
     b. Don't forget the quotes
 3. Then type ``git config --global user.name "Your Name"``` 
