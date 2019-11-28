@@ -59,6 +59,18 @@
 
 
 ## Repository Setup
+1. When you create a repo you need to do `git init` 
+2. Create a README.md file into your repo
+3. Then you need to create a repo in github.
+    a. sign into github
+    b. On the left side there is the reopisitory section, then you click the big green button that says new.
+    c. when you create the repo you need it to have the same name as you have in you cs50 ide.
+    d. Then it will direct you to the quick setup page, and you have to click the ssh button.
+    e. Look for the section that says ** or push an existing repository from the command line **  
+    f. Copy the `git remote add origin git@github.com:"your accout"/"your repo name"` into your command line.
+4. In the README.md add what you need to add, then `c9` into README.md 
+5. when your done working in the README file then in you command line add it to the stage and commit it with a message what you have done in the file.
+6. Then you have to do `git push` so it could update in github.
 
    
 
@@ -69,6 +81,7 @@
 * `git init` - Initializes git in our directory (now we call it repository) for version control: only do this in the beginning to be for effiecent.
     * To do it in the directory you want to turn into repository
    *  **Never do it in the root diectory!!**
+   *  If you init in the wrong directory you have to unitilize git be doing `rm -rf .git`
 
 * `Git status` (Not mandatory but very useful)
     * Used to see if a file has changed
