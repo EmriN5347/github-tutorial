@@ -70,9 +70,18 @@
     * To do it in the directory you want to turn into repository
    *  **Never do it in the root diectory!!**
 
-* Git status (Not mandatory but very useful)
+* `Git status` (Not mandatory but very useful)
     * Used to see if a file has changed
     * To see if you forgot to add the file to the stage
+* `git add` - adds any changes made in file to the stage to be committed.  
+* This command could be used in many ways. You could choose what you want to add to the stage. Ex: If you want to add all `git add .` or add only one thing `git add filename`
+* `git commit` - take a "snapshot" of the files on the stage that you added. Then you need to right a message in present tense ** dont do it in past tense ** 
+* `git push` - This allows you to import your commits to github and allows others to view your updated work on a project. This sends to remote 
+* `git remote` - This shows were your commit will go after you push them. This allows the user to know if they are sending the work to the right location.
+* `git log` - This shows the history of your past commits
+* `git revert` - This is used to redo a commit you have done in the pass with the use of git log.
+
+
 
 
 
