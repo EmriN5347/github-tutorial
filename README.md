@@ -66,7 +66,7 @@
     b. On the left side there is the reopisitory section, then you click the big green button that says new.
     c. when you create the repo you need it to have the same name as you have in you cs50 ide.
     d. Then it will direct you to the quick setup page, and you have to click the ssh button.
-    e. Look for the section that says ** or push an existing repository from the command line **  
+    e. Look for the section that says **or push an existing repository from the command line**  
     f. Copy the `git remote add origin git@github.com:"your accout"/"your repo name"` into your command line.
 4. In the README.md add what you need to add, then `c9` into README.md 
 5. when your done working in the README file then in you command line add it to the stage and commit it with a message what you have done in the file.
@@ -101,3 +101,19 @@
 
 ---
 ## Rolling Back Changes
+
+* `git checkout -- filename` - Suppose you're working on a repo with someone else, and you accidentally started editing a file that you shouldn't have (because you know you're going to get a merge conflict, and you'd rather avoid it altogether than have to deal with it).
+* `git reset head` - You would want to remove the broken file from the stage with this command.
+
+
+
+
+
+
+
+
+
+
+
+
+
