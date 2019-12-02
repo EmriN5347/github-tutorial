@@ -58,6 +58,12 @@ The key's randomart image is:
 * Type yes, press `ENTER`, and you should see
 > Hi "username"! You've successfully authenticated, but GitHub does not provide shell access.
 
+### Enable Preview
+* In the top left corner of the IDE, click CS50 IDE then click Preferences
+* When the new window opens, on the left side, click User Settings
+* On the RIGHT side, toggle Enable Preview to **ON**
+* You finished 
+    *   
 
 ## Repository Setup
 1. When you create a repo you need to do `git init` 
