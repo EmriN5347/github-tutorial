@@ -10,7 +10,8 @@
 
 ---
 ## Initial Setup
-1. Setup a GitHub account:     
+1. Setup a GitHub account: 
+![](images.jpg)
     a. Go to the sign up and create the account with an email and password
 2. When your in yor command line type ``git config --global user.email "you@example.com"``  
     a. Don't copy/paste it because you need to use your email  
@@ -23,7 +24,7 @@
     * make sure to use your email in the quotations
     * Then click enter slowly until you see this image
 ```
-    * The key's randomart image is:  
+The key's randomart image is:  
 +--[ RSA 4096]----+
 |       .o o..    |
 |       o +Eo     |
@@ -35,8 +36,8 @@
 |           . o   |
 |            o.   |
 +-----------------+
-
 ```
+
 * `eval "$(ssh-agent -s)"` starts the agent in the background
 * `ls -al ~/.ssh` you should now see a file named `id_rsa.pub`
 * `cat ~/.ssh/id_rsa.pub` then copy _all_ of the result to your clipboard (it should start with `ssh-rsa` and at the end should have your email adress)
@@ -104,8 +105,20 @@
 
 * `git checkout -- filename` - Suppose you're working on a repo with someone else, and you accidentally started editing a file that you shouldn't have (because you know you're going to get a merge conflict, and you'd rather avoid it altogether than have to deal with it).
 * `git reset head` - You would want to remove the broken file from the stage with this command.
+* `git log`&`git revert` - you get the "SHA" key then you type `git revert` then paste the "SHA" key to remove a paste commit.
 
 
+
+
+---
+## Fork/Clone
+
+* "Forking" a project is when you copy another repository. Forking is creating a bridge from the original to your repo, and you could create pull request to improve the orignal user's project
+1. "Cloning" is a way to copy the things in that repo into your ide. 
+    a. go to the clipboard and copy the ssh key.
+    b. then go to your ide
+    c. type `git clone` then paste the ssh key
+    d. finally cd into that file and have fun
 
 
 
