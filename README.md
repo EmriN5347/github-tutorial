@@ -63,9 +63,9 @@ The key's randomart image is:
 * When the new window opens, on the left side, click User Settings
 * On the RIGHT side, toggle Enable Preview to **ON**
 * You finished 
-    Tip 1-Drag the new tab that appeared to the right side of your IDE- ** Look at the image below **
+    Tip 1-Drag the new tab that appeared to the right side of your IDE- **Look at the image below**
     ![](images.png)
-    Tip 2-Use the pop icon to preview the image not in the ide- ** Look at the image below **
+    Tip 2-Use the pop icon to preview the image not in the ide- **Look at the image below**
     ![](image.png)
 
 ## Repository Setup
