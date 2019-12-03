@@ -5,7 +5,7 @@
 ---
 ## Git vs. GitHub
 * Git is an open-source tool developers install locally to manage source code 
-* GitHub is an online service (cloud base) which coders or developers could use git to connect and upload with each other for collaberation purposes.
+* GitHub is an online service (cloud base) which coders or developers could use git to connect and upload with each other for collaberation purposes. It does not require git.  
 
 
 ---
@@ -20,7 +20,7 @@
 
 #### Generating and connecting an SSH key
 * go to your root directory ``(cd~)``
-* type this into your ide ``ssh-keygen -t rsa -b 4096 -C "you@example.com"``  
+* type this into your IDE ``ssh-keygen -t rsa -b 4096 -C "you@example.com"``  
     * make sure to use your email in the quotations
     * Then click enter slowly until you see this image
 ```
@@ -44,9 +44,9 @@ The key's randomart image is:
 * Go to [https://github.com/settings/keys](https://github.com/settings/keys)  
     * Click new SSH Key
     * Create a Title: ide50
-    * Key: paste your ssh key
+    * Key: paste your SSH key
     * Click the green button that says Create SSH key
-* Back into your ide type ``sudo nano ~/.ssh/config``
+* Back into your IDE type ``sudo nano ~/.ssh/config``
 * Then paste 
  ```
  Host github.com
@@ -65,7 +65,7 @@ The key's randomart image is:
 * You finished 
     Tip 1-Drag the new tab that appeared to the right side of your IDE- **Look at the image below**
     ![](images.png)
-    Tip 2-Use the pop icon to preview the image not in the ide- **Look at the image below**
+    Tip 2-Use the pop icon to preview the image not in the IDE- **Look at the image below**
     ![](image.png)
 
 ## Repository Setup
@@ -124,9 +124,9 @@ The key's randomart image is:
 
 * "Forking" a project is when you copy another repository. Forking is creating a bridge from the original to your repo, and you could create pull request to improve the orignal user's project
 1. "Cloning" is a way to copy the things in that repo into your ide. 
-    a. go to the clipboard and copy the ssh key.
-    b. then go to your ide
-    c. type `git clone` then paste the ssh key
+    a. go to the clipboard and copy the SSH key.
+    b. then go to your IDE
+    c. type `git clone` then paste the SSH key
     d. finally cd into that file and have fun
 
 
